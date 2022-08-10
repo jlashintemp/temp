@@ -30,5 +30,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           rm -rf  C:/Users/jlashin/Documents/TargetDestination
-          gh repo clone jlashintemp/temp C:/Users/jlashin/Documents/TargetDestination
+          git remote rm origin
+          git remote add origin https://jlashintemp:Jl137870!@github.com/jlashintemp/project.git
+          git clone https://github.com/jlashintemp/temp.git C:/Users/jlashin/Documents/TargetDestination
           
