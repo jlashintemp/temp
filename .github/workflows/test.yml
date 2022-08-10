@@ -30,5 +30,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           rm -rf  C:/Users/jlashin/Documents/TargetDestination
-          git clone git@github.com:jlashintemp/temp.git C:/Users/jlashin/Documents/TargetDestination
+          gh repo clone jlashintemp/temp C:/Users/jlashin/Documents/TargetDestination
           
