@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run a multi-line script
+      - name: Clone to File Path
         run: |
-          rm -rf  //Target/Location
-          git clone https://github.com/jlaacsohbin/temp.git //Target/Location
+          rm -rf  //coreautomation/Tecnomatix/eMServer/SysRoot/Released
+          git clone https://github.com/jlaacsohbin/temp.git //coreautomation/Tecnomatix/eMServer/SysRoot/Released
           
           
